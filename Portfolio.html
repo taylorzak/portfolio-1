@@ -4,43 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transparent menu bar</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">Zak Taylor</div>
-        
-        <ul>
-            <!-- <li><a href="#">Home</a></li> -->
-            <!-- <li><a href="#">News</a></li> -->
-            <!-- <li><a href="#">Blog</a></li> -->
-            <li><a href="#about">About</a></li>
-            <li><a href="#myWork">My Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>   
-    </nav>   
-    <section class="about" id="about">
-        <h1>About Me</h1>
-        <p>kjasdhjk asdkjh asdkjh sadkjh sadkjh asdkjh asdkjha sdkjhasd kjhasd kjsadh ksadjh skadjh sadkjh sadkjh sadkjh asdkjh asdkjh sadkj hasdkjh asdkjh sadkjh asdkjh sadkjhasd kjsh adkjhs adkjh asdkjh asdkjh sadkjh asdkjash dkjasdh kjsadh ksadjh sakdjh asdkjh sad.</p>
+    <header>
+        <h1 class="logo">Zak Taylor</h1>
+        <img src="me.jpg" alt="my pic">
+        <nav>  
+            <ul>
+                <!-- <li><a href="#">Home</a></li> -->
+                <!-- <li><a href="#">News</a></li> -->
+                <!-- <li><a href="#">Blog</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#MyWork">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <section class="about">
+        <h1 id="about">About Me</h1>
+        <p>Hello, I'm Zak Taylor and I reside in Tucson, AZ. I am currently learning full stack development at a bootcamp at the UofA. I hope to expand my portfolio and continue to learn coding and design.</p>
     </section>
-    <section class="myWork" id="myWork">
-        <h1>My Work</h1>
-        <div class="bigCard">
-            <a href="https://github.com"><img class="cardImg" src="underwater.jpg"></img></a>
-                <h3>Project Name</h3>
-            
+    <section class="myWork">
+        <h1 id="MyWork">My Work</h1>
+        <div class="First_Challenge">
+            <div class="bigCard">
+                <a href="https://taylorzak.github.io/020-challenge/"><img class="cardImg" src="underwater.jpg"></img></a>
+                <h3>Horiseon Webpage</h3>
+            </div>
         </div>
-    
-        
+        <div class="my_work_flex">
+            <div class="bigCard">
+                <a href="https://taylorzak.github.io/020-challenge/"><img class="cardImg" src="cat.png"></img></a>
+                <h3>LED Wall</h3>
+            </div>
+            <div class="bigCard">
+                <a href="https://taylorzak.github.io/020-challenge/"><img class="cardImg" src="fiber.jpg"></img></a>
+                <h3>Calculator</h3>
+            </div>
+            <div class="bigCard">
+                <a href="https://taylorzak.github.io/020-challenge/"><img class="cardImg" src="wave.jpg"></img></a>
+                <h3>Puzzles</h3>
+            </div>
+            <div class="bigCard">
+                <a href="https://taylorzak.github.io/020-challenge/"><img class="cardImg" src="clouds.jpg"></img></a>
+                <h3>Run.Buddy</h3>
+            </div>
+        </div>    
     </section>
-    <section class="contact" id="contact">
-        <h1>Contact Me</h1>
-        <div class="bigCard">
-            <a href="https://github.com"><img class="cardImg" src="underwater.jpg"></img></a>
-                <h3>Contact info: Taylorzak@hotmail.com</h3>
+    <footer>
+        <h1 id="contact">Contact Me</h1>
+        <nav>  
+            <ul>
+                <li><a href="tel:15209557366" target="_blank">1-520-955-7366</a></li>
+                <li><a href="https://mail.google.com/" target="_blank">taylorzak28@outlook.com</a></li>
+                <li><a href="https://github.com/" target="_blank">github</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+            </ul>   
+        </nav>
         
-    </section>
+    </footer>
+
+</body>
+
 
     
 </body>

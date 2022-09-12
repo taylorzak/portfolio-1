@@ -2,11 +2,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: 0;
-    /* background: url(city2.jpg) */
-    background-color: rgb(105, 105, 105);
+    background-image: url("ink.jpg");
+    background-size: cover;
     overflow-x: hidden;
 }
-nav{
+
+header{
     /* position: fixed;
     top: 0;
     left: 0; */
@@ -15,11 +16,11 @@ nav{
     /* padding: 10px 90px; */
     /* box-sizing: border-box; */
     display: flex;
-    background: rgba(0,0,0,0.6);
-    border-bottom: 1px solid #fff ;
+    background: rgba(0,0,0,0.6);   
 }
-nav .logo{
-    padding: 22px 20px;
+.logo{
+    
+    padding: 10px 0px 0px 30px ;
     height: 80px;
     margin-right: auto;
     font-size: 30px;
@@ -28,14 +29,19 @@ nav .logo{
     text-transform: uppercase;
     color: rgb(246, 247, 248);
 }
-nav ul{
+header img{
+    border-radius: 50%;
+    margin-right: 1100px;
+
+}
+header nav ul{
     list-style: none;
     margin-left: auto;
     margin: 0;
-    padding: 0;
+    padding: 10px 15px 0px 0px;
     display: flex;
 }
-nav ul li a{
+header nav ul li a{
     line-height: 80px; 
     color: #fff;
     padding: 12px 30px;
@@ -44,7 +50,7 @@ nav ul li a{
     font-weight: bold;
     text-transform: uppercase;
 }
-nav ul li a:hover{
+header nav ul li a:hover{
     background: rgba(201, 195, 195, 0.7);
     border-radius:3px;   
 }
@@ -60,10 +66,47 @@ nav ul li a:hover{
     width: 35%;
 }
 
+.about h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
 .myWork {
     text-align: center;
     color: white;
 }
+
+.myWork h1 {
+    font-size: 40px;
+}
+
+.First_Challenge {
+    margin-bottom: 50px;
+}
+
+
+
+.my_work_flex {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+
+
+@media screen and (min-width: 800px) {
+
+.my_work_flex {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+}
+    }
+
+
 
 .myWork .bigCard {
     width: 600px;
@@ -80,4 +123,37 @@ nav ul li a:hover{
 
 .myWork .bigCard h3 {
     color: black;
+    font-size: 40px;
 }
+
+footer h1 {
+    color: white ;
+    text-align: center;
+}
+
+footer nav {
+    text-align: center;
+    display: inline;
+    font-size: 25px;
+    word-spacing: 40px;
+    font-family: Cambria;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+    border-bottom: 5px solid rgb(26, 142, 196);
+    padding: 0px 8px 0px;
+}
+
+footer a {
+    text-align: center;
+    color: rgb(26, 142, 196);
+    text-decoration: none;
+}
+
