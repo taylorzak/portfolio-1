@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 0;
-    background-image: url("ink.jpg");
+    background-image: url("smoke.jpg");
     background-size: cover;
     overflow-x: hidden;
 }
@@ -72,7 +72,7 @@ header nav ul li a:hover{
 
 p {
     font-size: 20px;
-    color: black;
+    color: rgb(252, 249, 249);
 }
 
 .myWork {
@@ -114,6 +114,9 @@ p {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid rgb(252, 250, 250);
+    border-radius: 12px;
+    padding: 5px;
 }
 
 .myWork .bigCard .cardImg {
